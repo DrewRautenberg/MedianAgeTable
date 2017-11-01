@@ -157,7 +157,7 @@ MEDIAN AGE FOR HERE: 38  United States
 
         System.out.println("\nMEDIAN AGES FOR SPECIFIC COUNTRIES:");
         System.out.printf("HIGHEST MEDIAN AGE:  %2d  %-30s", maxAge, maxAgeName);
-        System.out.printf("LOWEST MEDIAN AGE:   %2d  %-30s", minAge, minAgeName);
-        System.out.printf("MEDIAN AGE FOR HERE: %2d  %-30s", usaAge, "United States");
+        System.out.printf("\nLOWEST MEDIAN AGE:   %2d  %-30s", minAge, minAgeName);
+        System.out.printf("\nMEDIAN AGE FOR HERE: %2d  %-30s", usaAge, "United States");
     }
 }
