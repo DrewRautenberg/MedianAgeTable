@@ -68,11 +68,16 @@ public class MedianAgeTable {
             name = field[0];
             continent = field[1];
             age = Integer.parseInt(field[5]);
-            // ToDo:  check for tempMinAge (& store age & name, if appropriate)
 
+            if (age<tempMinAge){
+                tempMinAge=age;
+                tempMinName=name;
+            }
 
-            // ToDo:  ditto for tempMaxAge
-
+            if (age>tempMaxAge){
+                tempMaxAge=age;
+                tempMaxName=name;
+            }
 
             if (name.compareTo("United States") == 0)
                 usaAge = age;
