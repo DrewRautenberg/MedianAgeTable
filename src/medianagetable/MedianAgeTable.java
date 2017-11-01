@@ -69,14 +69,14 @@ public class MedianAgeTable {
             continent = field[1];
             age = Integer.parseInt(field[5]);
 
-            if (age<tempMinAge){
-                tempMinAge=age;
-                tempMinName=name;
+            if (age < tempMinAge) {
+                tempMinAge = age;
+                tempMinName = name;
             }
 
-            if (age>tempMaxAge){
-                tempMaxAge=age;
-                tempMaxName=name;
+            if (age > tempMaxAge) {
+                tempMaxAge = age;
+                tempMaxName = name;
             }
 
             if (name.compareTo("United States") == 0)
@@ -91,13 +91,16 @@ public class MedianAgeTable {
         inFile.close();
     }
     //*************************************************************************
-//    private static int whichRow() {
-
+    private static int whichRow(String[] contNames, String continent) {
+        for (int i=0;i<NUM_CONTINENTS;i++){
+            if (contNames[i].compareTo(continent)==0){
+                return i;
+            }
+        }
     // ToDo: add parameters
     // todo: write method body
     // todo: do return
-
-//    }
+    }
     // -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 //    private static int whichCol() {
 
