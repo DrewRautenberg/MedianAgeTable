@@ -57,7 +57,7 @@ public class MedianAgeTable {
         String tempMinName = "";
         int tempMaxAge = Integer.MIN_VALUE;
         String tempMaxName = "";
-        int usaAge =-1;
+        int usaAge = -1;
         // - - - - - - - - - - - - - - - - - PROCESS FILE TO CALCULATE DO STATS
 
         inFile.nextLine();                           // skip over Header Record
@@ -88,7 +88,7 @@ public class MedianAgeTable {
 
         } // END OF WHILE
         // - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  END TASKS
-        printReport(contNames, counters,tempMaxAge,tempMaxName,tempMinAge,tempMinName,usaAge);
+        printReport(contNames, counters, tempMaxAge, tempMaxName, tempMinAge, tempMinName, usaAge);
         inFile.close();
     }
 
@@ -149,11 +149,17 @@ MEDIAN AGE FOR HERE: 38  United States
         System.out.println("              # COUNTRIES IN EACH CATEGORY");
         System.out.println("CONTINENT      <= 21  22-28  29-37  >= 38");
         System.out.println("---------      -----  -----  -----  -----");
-//
-        // ToDo:  finish rest of report - the 2D table
-        //          i.e., print contName (using %-14s)
-        //                  loop to print counts (using %6d)
 
+        //2D table output
+        //contName using %-14s
+        //counts using %6d
+        for (int i = 0; i < NUM_CONTINENTS; i++) {
+            System.out.printf("%-14s", contNames[i]);
+            for (int j = 0; j < NUM_CATS; j++) {
+                System.out.printf("%6d", counters[i][j]);
+            }
+            System.out.println();
+        }
 
         System.out.println("\nMEDIAN AGES FOR SPECIFIC COUNTRIES:");
         System.out.printf("HIGHEST MEDIAN AGE:  %2d  %-30s\n", maxAge, maxAgeName);
