@@ -100,13 +100,23 @@ public class MedianAgeTable {
         return -1;
     }
     // -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
-//    private static int whichCol() {
-
-    // ToDo: add parameters
-    // todo: write method body
-    // Todo: do return
-
-//    }
+    private static int whichCol(int age) {
+        //<= 21  22-28  29-37  >= 38
+        int col =-1;
+        if (age <=21 ){
+            col =0;
+        }
+        else if (age >=22 && age <=28){
+          col = 1;
+        }
+        else if (age >=29 && age <=37){
+        col =2;
+        }
+        else {
+           col =3;
+        }
+        return col;
+    }
     //*************************************************************************
     
 /*--------------------------------------------------------------- SAMPLE REPORT
