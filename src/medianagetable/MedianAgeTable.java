@@ -97,9 +97,7 @@ public class MedianAgeTable {
                 return i;
             }
         }
-    // ToDo: add parameters
-    // todo: write method body
-    // todo: do return
+        return -1;
     }
     // -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 //    private static int whichCol() {
