@@ -1,0 +1,199 @@
+Name,Continent,Region,LifeExp (2000),Population (2015),Median Age
+Niger,Africa,Western Africa,41.3,21563607,15
+Angola,Africa,Central Africa,38.3,26655513,16
+Chad,Africa,Central Africa,50.5,14965482,16
+Uganda,Africa,Eastern Africa,42.9,41652938,16
+Mali,Africa,Western Africa,46.7,18689966,16
+DR Congo,Africa,Central Africa,48.8,82242685,17
+Malawi,Africa,Eastern Africa,37.6,18298679,17
+Mozambique,Africa,Eastern Africa,37.5,29537914,17
+Somalia,Africa,Eastern Africa,46.2,11391962,17
+Tanzania,Africa,Eastern Africa,52.3,56877529,17
+Zambia,Africa,Eastern Africa,37.2,17237931,17
+Burkina Faso,Africa,Western Africa,46.7,19173322,17
+Gambia,Africa,Western Africa,53.2,2120418,17
+Burundi,Africa,Eastern Africa,46.2,11936481,18
+Cote d-Ivoire,Africa,Western Africa,45.2,23815886,18
+Nigeria,Africa,Western Africa,51.6,191835936,18
+Senegal,Africa,Western Africa,62.2,16054275,18
+Cameroon,Africa,Central Africa,54.8,24513689,19
+Congo,Africa,Central Africa,47.4,4866243,19
+Sao Tome and Principe,Africa,Central Africa,65.3,198481,19
+Eritrea,Africa,Eastern Africa,55.8,5481906,19
+Ethiopia,Africa,Eastern Africa,45.2,104344901,19
+Kenya,Africa,Eastern Africa,48,48466928,19
+Madagascar,Africa,Eastern Africa,55,25612972,19
+Mayotte,Africa,Eastern Africa,59.5,253068,19
+Rwanda,Africa,Eastern Africa,39.3,12159586,19
+Zimbabwe,Africa,Eastern Africa,37.8,16337760,19
+South Sudan,Africa,Northern Africa,56.6,13096190,19
+Sudan,Africa,Northern Africa,56.6,42166323,19
+Benin,Africa,Western Africa,50.2,11458611,19
+Guinea,Africa,Western Africa,45.6,13290659,19
+Guinea-Bissau,Africa,Western Africa,49,1932871,19
+Liberia,Africa,Western Africa,51,4730437,19
+Sierra Leone,Africa,Western Africa,45.3,6732899,19
+Togo,Africa,Western Africa,54.7,7691915,19
+Central African Republic,Africa,Central Africa,44,5098826,20
+Comoros,Africa,Eastern Africa,60,825920,20
+Mauritania,Africa,Western Africa,50.8,4266448,20
+Equatorial Guinea,Africa,Central Africa,53.6,894464,21
+Gabon,Africa,Central Africa,50.1,1801232,21
+Lesotho,Africa,Southern Africa,50.8,2185159,21
+Namibia,Africa,Southern Africa,42.5,2568569,21
+Swaziland,Africa,Southern Africa,40.4,1320356,21
+Ghana,Africa,Western Africa,57.4,28656723,21
+Djibouti,Africa,Eastern Africa,50.8,911382,24
+Botswana,Africa,Southern Africa,39.3,2343981,24
+Egypt,Africa,Northern Africa,63.3,95215102,25
+Cabo Verde,Africa,Western Africa,68.9,533468,25
+South Africa,Africa,Southern Africa,51.1,55436360,26
+Algeria,Africa,Northern Africa,69.7,41063753,28
+Libya,Africa,Northern Africa,75.5,6408742,28
+Morocco,Africa,Northern Africa,69.1,35241418,28
+Western Sahara,Africa,Northern Africa,49.8,596021,29
+Tunisia,Africa,Northern Africa,73.7,11494760,31
+Seychelles,Africa,Eastern Africa,70.4,97539,33
+Reunion,Africa,Eastern Africa,72.7,873356,34
+Mauritius,Africa,Eastern Africa,71,1281353,35
+Afghanistan,Asia,Southern and Central Asia,45.9,34169169,18
+Iraq,Asia,Middle East,66.5,38654287,19
+State of Palestine,Asia,Middle East,71.4,4928225,19
+Yemen,Asia,Middle East,59.8,28119546,19
+Syria,Asia,Middle East,68.5,18906907,21
+Laos,Asia,Southeast Asia,53.1,7037521,22
+Jordan,Asia,Middle East,77.4,7876703,23
+Nepal,Asia,Southern and Central Asia,57.8,29187037,23
+Pakistan,Asia,Southern and Central Asia,61.1,196744376,23
+Tajikistan,Asia,Southern and Central Asia,64.1,8858115,23
+Cambodia,Asia,Southeast Asia,56.5,16076370,24
+Philippines,Asia,Southeast Asia,67.5,103796832,24
+Kyrgyzstan,Asia,Southern and Central Asia,63.4,6124945,25
+Bangladesh,Asia,Southern and Central Asia,60.2,164827718,26
+Maldives,Asia,Southern and Central Asia,62.2,375867,26
+Turkmenistan,Asia,Southern and Central Asia,60.9,5502586,26
+Uzbekistan,Asia,Southern and Central Asia,63.7,30690914,26
+Mongolia,Asia,Eastern Asia,67.3,3051900,27
+Bhutan,Asia,Southern and Central Asia,52.4,792877,27
+India,Asia,Southern and Central Asia,62.5,1342512706,27
+Saudi Arabia,Asia,Middle East,67.8,32742664,28
+Indonesia,Asia,Southeast Asia,68,263510146,28
+Myanmar,Asia,Southeast Asia,54.9,54836483,28
+Lebanon,Asia,Middle East,71.3,6039277,29
+Oman,Asia,Middle East,71.8,4741305,29
+Malaysia,Asia,Southeast Asia,70.8,31164177,29
+Kazakhstan,Asia,Southern and Central Asia,63.2,18064470,29
+Bahrain,Asia,Middle East,73,1418895,30
+Israel,Asia,Middle East,78.6,8323248,30
+Turkey,Asia,Middle East,71,80417526,30
+Viet Nam,Asia,Southeast Asia,69.3,95414640,30
+Iran,Asia,Southern and Central Asia,69.7,80945718,30
+Azerbaijan,Asia,Middle East,62.9,9973697,31
+Kuwait,Asia,Middle East,76.1,4099932,31
+Qatar,Asia,Middle East,72.4,2338085,31
+Brunei ,Asia,Southeast Asia,73.6,434448,31
+Sri Lanka,Asia,Southern and Central Asia,71.8,20905335,32
+United Arab Emirates,Asia,Middle East,74.1,9397599,33
+North Korea,Asia,Eastern Asia,70.7,25405296,34
+Armenia,Asia,Middle East,66.4,3031670,35
+Cyprus,Asia,Middle East,76.7,1187575,36
+China,Asia,Eastern Asia,71.4,1388232693,37
+Macao,Asia,Eastern Asia,81.6,606384,38
+Georgia,Asia,Middle East,64.5,3972532,38
+Thailand,Asia,Southeast Asia,68.6,68297547,38
+Taiwan,Asia,Eastern Asia,76.4,23405309,40
+Singapore,Asia,Southeast Asia,80.1,5784538,40
+South Korea,Asia,Eastern Asia,74.4,50704971,41
+Hong Kong,Asia,Eastern Asia,79.5,7401941,43
+Japan,Asia,Eastern Asia,80.7,126045211,47
+Albania,Europe,Southern Europe,71.6,2911428,34
+Moldova,Europe,Eastern Europe,64.5,4054640,36
+Iceland,Europe,Nordic Countries,79.4,334303,36
+Ireland,Europe,British Islands,76.8,4749153,37
+Montenegro,Europe,Southern Europe,72.4,626250,38
+TFYR Macedonia,Europe,Southern Europe,72.4,2083308,38
+Russia,Europe,Eastern Europe,67.2,143375006,39
+Slovakia,Europe,Eastern Europe,73.7,5432157,39
+Norway,Europe,Nordic Countries,78.7,5330800,39
+Luxembourg,Europe,Western Europe,77.1,584103,39
+United Kingdom,Europe,British Islands,77.7,65511098,40
+Belarus,Europe,Eastern Europe,68,9458535,40
+Poland,Europe,Eastern Europe,73.2,38563573,40
+Ukraine,Europe,Eastern Europe,66,44405055,40
+Hungary,Europe,Eastern Europe,71.4,9787905,41
+Sweden,Europe,Nordic Countries,79.6,9920624,41
+Serbia,Europe,Southern Europe,72.4,8776940,41
+France,Europe,Western Europe,78.8,64938716,41
+Estonia,Europe,Baltic Countries,69.5,1305755,42
+Czech Republic,Europe,Eastern Europe,74.5,10555130,42
+Romania,Europe,Eastern Europe,69.9,19237513,42
+Denmark,Europe,Nordic Countries,76.5,5711837,42
+Bosnia and Herzegovina,Europe,Southern Europe,71.5,3792759,42
+Malta,Europe,Southern Europe,77.9,420521,42
+Belgium,Europe,Western Europe,77.8,11443830,42
+Switzerland,Europe,Western Europe,79.6,8454083,42
+Latvia,Europe,Baltic Countries,68.4,1944565,43
+Lithuania,Europe,Baltic Countries,69.1,2830582,43
+Channel Islands,Europe,British Islands,77.7,165235,43
+Finland,Europe,Nordic Countries,77.4,5541274,43
+Croatia,Europe,Southern Europe,73.7,4209815,43
+Slovenia,Europe,Southern Europe,74.9,2071252,43
+Spain,Europe,Southern Europe,78.8,46070146,43
+Austria,Europe,Western Europe,77.7,8592400,43
+Netherlands,Europe,Western Europe,78.3,17032845,43
+Bulgaria,Europe,Eastern Europe,70.9,7045259,44
+Greece,Europe,Southern Europe,78.4,10892931,44
+Portugal,Europe,Southern Europe,75.8,10264797,44
+Italy,Europe,Southern Europe,79,59797978,46
+Germany,Europe,Western Europe,77.4,80636124,46
+Guatemala,North America,Central America,66.2,17005497,21
+Haiti,North America,Caribbean,49.2,10983274,23
+Honduras,North America,Central America,69.9,8304677,23
+Belize,North America,Central America,70.9,374651,24
+Nicaragua,North America,Central America,68.7,6217796,25
+Dominican Republic,North America,Caribbean,73.2,10766564,26
+Grenada,North America,Caribbean,64.5,107850,27
+El Salvador,North America,Central America,69.7,6167147,27
+Mexico,North America,Central America,71.5,130222815,27
+Jamaica,North America,Caribbean,75.2,2813285,29
+Panama,North America,Central America,75.5,4051284,29
+Antigua and Barbuda,North America,Caribbean,70.5,93659,31
+Saint Lucia,North America,Caribbean,72.3,187768,31
+Costa Rica,North America,Central America,75.8,4905626,31
+Bahamas,North America,Caribbean,71.1,397164,32
+Trinidad and Tobago,North America,Caribbean,68,1369157,34
+Puerto Rico,North America,Caribbean,75.6,3679086,36
+United States,North America,North America,77.1,326474013,38
+Barbados,North America,Caribbean,73,285744,39
+Guadeloupe,North America,Caribbean,77,472462,39
+Aruba,North America,Caribbean,78.4,104588,40
+Cuba,North America,Caribbean,76.2,11390184,41
+United States Virgin Islands,North America,Caribbean,78.1,106574,41
+Canada,North America,North America,79.4,36626083,41
+Martinique,North America,Caribbean,78.3,396071,46
+Solomon Islands,Oceania,Melanesia,71.3,606215,20
+Papua New Guinea,Oceania,Melanesia,63.1,7933841,21
+Samoa,Oceania,Polynesia,69.2,195743,21
+Tonga,Oceania,Polynesia,67.9,107797,21
+Vanuatu,Oceania,Melanesia,60.6,276331,22
+Kiribati,Oceania,Micronesia,59.8,116405,22
+Micronesia,Oceania,Micronesia,68.6,105566,22
+Fiji,Oceania,Melanesia,67.9,902547,28
+Guam,Oceania,Micronesia,77.8,174214,30
+French Polynesia,Oceania,Polynesia,74.8,288685,32
+New Caledonia,Oceania,Melanesia,72.8,269736,33
+Australia,Oceania,Australia and New Zealand,79.8,24641662,38
+New Zealand,Oceania,Australia and New Zealand,77.8,4604871,38
+Bolivia,South America,South America,63.7,11052864,24
+French Guiana,South America,South America,76.1,282761,25
+Guyana,South America,South America,64,774407,25
+Paraguay,South America,South America,73.7,6811583,25
+Ecuador,South America,South America,71.1,16625776,27
+Venezuela,South America,South America,73.1,31925705,27
+Peru,South America,South America,70,32166473,28
+Suriname,South America,South America,71.4,552112,29
+Colombia,South America,South America,70.3,49067981,30
+Argentina,South America,South America,75.1,44272125,31
+Brazil,South America,South America,62.9,211243220,31
+Chile,South America,South America,75.7,18313495,34
+Uruguay,South America,South America,75.2,3456877,35
