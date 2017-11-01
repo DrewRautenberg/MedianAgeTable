@@ -24,23 +24,34 @@
  *          the raw data in parallel arrays
  *****************************************************************************/
 package medianagetable;
+
 import java.io.*;
 import java.util.Scanner;
+
 public class MedianAgeTable {
+
+    static final int NUM_CONTINENTS = 6;
+    static final int NUM_CATS = 4;
 
     public static void main(String[] args) throws IOException {
         // - - - - - - - - - - - - - - - - - - - - - - DECLARATIONS & OPEN FILE
         File f = new File("MedianAge.csv");
         Scanner inFile = new Scanner(f);
-        String[] contNames = { "Africa", "Asia", "Europe",
-                "North America", "Oceania", "South America" };
+        String[] contNames = {"Africa", "Asia", "Europe",
+                "North America", "Oceania", "South America"};
         String record;                                          // a line
-        String[]field = new String[6];
+        String[] field = new String[6];
         String name;
         String continent;
         int age;
-        // ToDo:  need 2D matrix of counters (declare & initialize it to 0's)
 
+        //2D matrix of counters (declare & initialized to 0's)
+        int[][] counters = new int[NUM_CONTINENTS][NUM_CATS];
+        for (int i = 0; i < NUM_CONTINENTS; i++) {
+            for (int j = 0; j < NUM_CATS; j++) {
+                counters[i][j] = 0;
+            }
+        }
 
         int tempMinAge = Integer.MAX_VALUE;
         String tempMinName = "";
@@ -69,8 +80,7 @@ public class MedianAgeTable {
             //          method calls to decide the right counter to ++
 
 
-
-        } // END OF WHILE       
+        } // END OF WHILE
         // - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  END TASKS
         printReport();                  // ToDo:  add parameters
         inFile.close();
@@ -78,13 +88,17 @@ public class MedianAgeTable {
     //*************************************************************************
 //    private static int whichRow() {
 
-    // ToDo: add parameters, write method body, do return
+    // ToDo: add parameters
+    // todo: write method body
+    // todo: do return
 
 //    }
     // -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 //    private static int whichCol() {
 
-    // ToDo: add parameters, write method body, do return
+    // ToDo: add parameters
+    // todo: write method body
+    // Todo: do return
 
 //    }
     //*************************************************************************
@@ -119,7 +133,6 @@ MEDIAN AGE FOR HERE: 38  United States
         // ToDo:  finish rest of report - the 2D table
         //          i.e., print contName (using %-14s)
         //                  loop to print counts (using %6d)
-
 
 
         System.out.println("\nMEDIAN AGES FOR SPECIFIC COUNTRIES:");
