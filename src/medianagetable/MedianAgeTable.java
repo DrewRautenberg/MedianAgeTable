@@ -57,7 +57,7 @@ public class MedianAgeTable {
         String tempMinName = "";
         int tempMaxAge = Integer.MIN_VALUE;
         String tempMaxName = "";
-        int usaAge;
+        int usaAge =-1;
         // - - - - - - - - - - - - - - - - - PROCESS FILE TO CALCULATE DO STATS
 
         inFile.nextLine();                           // skip over Header Record
@@ -81,41 +81,42 @@ public class MedianAgeTable {
 
             if (name.compareTo("United States") == 0)
                 usaAge = age;
-            // ToDo: add 1 to appropriate counter, using whichRow and whichCol
 
-            int row = whichRow(contNames,continent);
+            int row = whichRow(contNames, continent);
             int col = whichCol(age);
             counters[row][col]++;
 
         } // END OF WHILE
         // - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  END TASKS
-        printReport();                  // ToDo:  add parameters
+        printReport(contNames, counters,tempMaxAge,tempMaxName,tempMinAge,tempMinName,usaAge);
         inFile.close();
     }
+
     //*************************************************************************
     private static int whichRow(String[] contNames, String continent) {
-        for (int i=0;i<NUM_CONTINENTS;i++){
-            if (contNames[i].compareTo(continent)==0){
+        for (int i = 0; i < NUM_CONTINENTS; i++) {
+            if (contNames[i].compareTo(continent) == 0) {
                 return i;
             }
         }
         return -1;
     }
+
     // -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
     private static int whichCol(int age) {
         //<= 21  22-28  29-37  >= 38
-        int col =-1;
-        if (age <=21 ){
-            col =0;
+        int col = -1;
+        if (age <= 21) {
+            col = 0;
         }
-        else if (age >=22 && age <=28){
-          col = 1;
+        else if (age >= 22 && age <= 28) {
+            col = 1;
         }
-        else if (age >=29 && age <=37){
-        col =2;
+        else if (age >= 29 && age <= 37) {
+            col = 2;
         }
         else {
-           col =3;
+            col = 3;
         }
         return col;
     }
@@ -141,7 +142,8 @@ MEDIAN AGE FOR HERE: 38  United States
 ------------------------------------------------------------------------------*/
 
     //*************************************************************************
-    private static void printReport() {         // ToDo:  add parameters
+    private static void printReport(String[] contNames, int[][] counters, int maxAge, String maxAgeName,
+                                    int minAge, String minAgeName, int usaAge) {
 
         System.out.println("MEDIAN AGE REPORT\n");
         System.out.println("              # COUNTRIES IN EACH CATEGORY");
@@ -154,11 +156,8 @@ MEDIAN AGE FOR HERE: 38  United States
 
 
         System.out.println("\nMEDIAN AGES FOR SPECIFIC COUNTRIES:");
-//        System.out.println("HIGHEST MEDIAN AGE:  %2d  %-30s",
-//                maxAge,maxAgeName);
-//        System.out.println("LOWEST MEDIAN AGE:   %2d  %-30s",
-//                minAge,minAgeName);
-//        System.out.println("MEDIAN AGE FOR HERE: %2d  %-30s",
-//                usaAge,"United States");
+        System.out.printf("HIGHEST MEDIAN AGE:  %2d  %-30s", maxAge, maxAgeName);
+        System.out.printf("LOWEST MEDIAN AGE:   %2d  %-30s", minAge, minAgeName);
+        System.out.printf("MEDIAN AGE FOR HERE: %2d  %-30s", usaAge, "United States");
     }
 }
