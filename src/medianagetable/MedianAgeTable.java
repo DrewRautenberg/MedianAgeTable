@@ -82,8 +82,10 @@ public class MedianAgeTable {
             if (name.compareTo("United States") == 0)
                 usaAge = age;
             // ToDo: add 1 to appropriate counter, using whichRow and whichCol
-            //          method calls to decide the right counter to ++
 
+            int row = whichRow(contNames,continent);
+            int col = whichCol(age);
+            counters[row][col]++;
 
         } // END OF WHILE
         // - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  END TASKS
